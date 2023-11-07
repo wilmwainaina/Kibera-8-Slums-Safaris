@@ -8,9 +8,9 @@ const iconsize = 20;
 
 function Navbar() {
   return (
-    <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-2 border-black shadow-lg navbar mt-0'>
+    <div className='w-screen h-[80px] z-10 bg-[rgb(255,255,255)] fixed border-b-2 border-black shadow-lg navbar '>
       
-      <div className='px-4 flex justify-between items-center w-full h-full'>
+      <div className='px-4 flex justify-between items-center w-full h-full position: absolute;'>
         <div className='flex items-center'>
           <div className='m-4'>
               <img src={logosvg} alt='logo' className='w-20' />
@@ -19,10 +19,10 @@ function Navbar() {
           <div className=''>
             
             <ul className='flex p-24'>
-              <NavItem icon={<AiOutlineHome size={iconsize} />} to='/' label='Home' />
-              <NavItem icon={<BsCoin size={iconsize} />} to='/donations' label='Donations' />
-              <NavItem icon={<LuTrees size={iconsize} />} to='/tours' label='Tours' />
-              <NavItem icon={<AiFillPicture size={iconsize} />} to='/gallery' label='Gallery' />
+              <NavItem icons={<AiOutlineHome size={iconsize} />} to='/' label='Home' />
+              <NavItem icons={<BsCoin size={iconsize} />} to='/donations' label='Donations' />
+              <NavItem icons={<LuTrees size={iconsize} />} to='/tours' label='Tours' />
+              <NavItem icons={<AiFillPicture size={iconsize} />} to='/gallery' label='Gallery' />
             </ul>
           
         </div>
@@ -47,19 +47,34 @@ function Navbar() {
 }
 
 // Navigation Item Component
+// function NavItem({ icon, to, label }) {
+//   return (
+//     <li className={location.pathname === to}>
+//       <div className='flex items-center p-16'>
+//         {icon}
+//         <a href={to} className='flex'>
+//           {label}
+//         </a>
+//       </div>
+//     </li>
+//   );
+// }
+
+// export default Navbar;
+
+// Navigation Item Component
 function NavItem({ icon, to, label }) {
   return (
-    <li className={location.pathname === to}>
-      <div className='flex items-center p-16'>
+    <li className="nav-item">
+      <div className="flex items-center">
         {icon}
-        <a href={to} className='flex'>
+        <a href={to} className="nav-link">
           {label}
         </a>
       </div>
     </li>
   );
 }
-
 export default Navbar;
 
 

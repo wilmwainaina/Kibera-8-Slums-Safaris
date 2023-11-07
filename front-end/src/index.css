@@ -691,7 +691,7 @@ ul.infoGraphic li:hover .coverWrap .numberCover {
   content: "\f25b";
 }
 
-
+ 
 html {
   box-sizing: border-box;
 }
@@ -832,3 +832,15 @@ input[type="range"]:focus::-ms-fill-upper {
 
 
 
+/* Add these styles to your CSS */
+.nav-item {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.nav-link {
+  margin-left: 10px; /* Adjust margin as needed */
+  text-decoration: none;
+  color: #000; /* Set your desired text color */
+  font-weight: bold;
+  font-size: 16px; /* Set your desired font size */
+}
