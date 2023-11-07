@@ -4,7 +4,7 @@ import {AiFillFacebook, AiFillGithub, AiOutlineInstagram, AiFillTwitterSquare} f
 
 function Footer() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col ">
       <div className="flex-grow">
       </div>
       <footer className='max-w-[1240] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 bg-[#840E02] text-[#FFFFFF]'>
