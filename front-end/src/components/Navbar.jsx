@@ -2,13 +2,17 @@ import React from 'react';
 import { AiOutlineMenu, AiOutlineHome, AiFillPicture } from 'react-icons/ai';
 import { BsCoin } from 'react-icons/bs';
 import { LuTrees } from 'react-icons/lu'
-import logosvg from '/home/wil/Desktop/phase-5/project/front-end/src/assets/logo.svg';
+import logosvg from '/home/wambui/finalproject/Kibera-8-Slums-Safaris/front-end/src/assets/logo.svg';
 
 const iconsize = 20;
 
 function Navbar() {
   return (
+<<<<<<< HEAD
     <div className='w-screen h-[80px] z-10 bg-[rgb(255,255,255)] fixed border-b-2 border-black shadow-lg navbar '>
+=======
+    <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-2 border-black shadow-lg navbar mt-0'>
+>>>>>>> 86e1329d114f2d7e827c5caec7c4c5ebe02b6eda
       
       <div className='px-4 flex justify-between items-center w-full h-full position: absolute;'>
         <div className='flex items-center'>
