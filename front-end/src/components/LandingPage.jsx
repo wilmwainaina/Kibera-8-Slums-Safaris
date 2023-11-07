@@ -3,7 +3,7 @@ import DidYouKnow from './DidYouKnow';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-function Carousel() {
+function LandingPage() {
   const [isNavActive, setNavActive] = useState(false);
 
   useEffect(() => {
@@ -174,7 +174,7 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default  LandingPage;
 
 
 
