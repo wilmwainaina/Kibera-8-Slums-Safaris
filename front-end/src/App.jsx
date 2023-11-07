@@ -7,22 +7,18 @@ import Tours from './pages/Tours';
 import Donations from './pages/Donations';
 import Form from './pages/DonationForm';
 import 'tailwindcss/tailwind.css';
+import LandingPage from './components/LandingPage';
+import WhatDoWeDo from './components/WhatDoWeDo';
+import Accomplishments from './components/WhoAreWe';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Router>
 
-      <Routes>
-      <Route path="/donations" element={<Donations />} />
-          <Route path="/donationform" element={<Form />} />
-      <Route path="/tours" element={<Tours />} />
-        <Route path='/' element={<LandingPage />} />
-      </Routes>
-      </Router>
       <Footer />
     </div>
   )

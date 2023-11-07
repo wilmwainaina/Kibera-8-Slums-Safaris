@@ -65,8 +65,8 @@ function LandingPage() {
                   />
                 </div>
                 <div className="slideText">
-                  <h1 className="animate__animated animate__fadeInUp font-bold">KIBERA 8 SLUM SAFARI</h1>
-                  <p className="animate__animated animate__fadeInUp font-medium">KENYA</p>
+                  <h1 className="animate__animated animate__fadeInUp font-bold text-white">KIBERA 8 SLUM SAFARI</h1>
+                  <p className="animate__animated animate__fadeInUp font-medium text-white">KENYA</p>
                   <div className="buttonNav animate__animated animate__fadeInDown">
                     <button type="button" data-bs-target="#rotoTransition" data-bs-slide="prev">
                       <i className="fa-solid fa-arrow-left-long"></i>
@@ -99,8 +99,8 @@ function LandingPage() {
                   />
                 </div>
                 <div className="slideText">
-                  <h1 className="animate__animated animate__fadeInUp font-bold">Eradicating Poverty </h1>
-                  <p className="animate__animated animate__fadeInUp font-medium">With Love And Care</p>
+                  <h1 className="animate__animated animate__fadeInUp font-bold text-white">Eradicating Poverty </h1>
+                  <p className="animate__animated animate__fadeInUp font-medium text-white">With Love And Care</p>
                   <div className="buttonNav animate__animated animate__fadeInDown">
                     <button type="button" data-bs-target="#rotoTransition" data-bs-slide="prev">
                       <i className="fa-solid fa-arrow-left-long"></i>
@@ -174,7 +174,7 @@ function LandingPage() {
   );
 }
 
-export default  LandingPage;
+export default Carousel;
 
 
 

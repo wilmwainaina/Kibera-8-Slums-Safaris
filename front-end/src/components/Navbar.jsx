@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineMenu, AiOutlineHome, AiFillPicture } from 'react-icons/ai';
 import { BsCoin } from 'react-icons/bs';
 import { LuTrees } from 'react-icons/lu'
-import logosvg from '/home/wil/Desktop/phase-5/project/front-end/src/assets/logo.svg';
+import logosvg from '/home/wambui/finalproject/Kibera-8-Slums-Safaris/front-end/src/assets/logo.svg';
 
 const iconsize = 20;
 
