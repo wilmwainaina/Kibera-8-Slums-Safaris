@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind  base;
+@tailwind  components;
+@tailwind  utilities;
 /* landing page and the info */
 
 
@@ -828,6 +828,7 @@ input[type="range"]:focus::-ms-fill-lower {
 input[type="range"]:focus::-ms-fill-upper {
   background: #ffffff;
 }
+
 
 
 
