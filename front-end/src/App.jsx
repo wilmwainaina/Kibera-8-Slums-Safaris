@@ -5,6 +5,9 @@ import 'tailwindcss/tailwind.css';
 import LandingPage from './components/LandingPage';
 import WhatDoWeDo from './components/WhatDoWeDo';
 import Accomplishments from './components/WhoAreWe';
+import Donations from './pages/Donations';
+import Tours from './pages/Tours';
+import DonationForm from './pages/DonationForm';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -15,6 +18,9 @@ function App() {
       <Navbar />
       <Router>
         <Routes>
+          <Route path='/donationsform' element={<DonationForm/>}/>
+          <Route path='/tours' element={<Tours/>}/>
+          <Route path="/donations" element={<Donations/>}/>
           <Route path="/whatwedo" element={<WhatDoWeDo/>}/>
           <Route path="/aboutus" element={<Accomplishments/>}/>
           <Route path="/" element ={<LandingPage/>}/>
