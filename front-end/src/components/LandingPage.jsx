@@ -174,7 +174,7 @@ function LandingPage() {
   );
 }
 
-export default Carousel;
+export default LandingPage;
 
 
 
