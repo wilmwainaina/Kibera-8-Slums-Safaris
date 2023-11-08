@@ -24,6 +24,8 @@ function Navbar() {
               <NavItem icons={<LuTrees size={iconsize} />} to='/tours' label='Tours' />
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/gallery' label='Gallery' />
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/admin' label='Admin' />
+              <NavItem icons={<AiFillPicture size={iconsize} />} to='/aboutkibera' label='About Kibera'/>
+
 
             </ul>
           
