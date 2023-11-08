@@ -1,6 +1,7 @@
 import React from 'react';
 import Founding from './Founding';
 import FounderMessage from './FounderMessage';
+import Footer from './Footer';
 
 function Accomplishments() {
   return (
@@ -20,6 +21,8 @@ function Accomplishments() {
         
          </div>
     </div>
+    <Footer/>
+
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import React from 'react'
+import Footer from '../components/Footer';
 
-
-function Tours() {
+function TourPage() {
   return (
+    <>
     <div className='py-24 '>
        <div className="container mx-auto p-4">
       <h1 className="text-3xl font-semibold mb-4">Tour Information</h1>
@@ -58,9 +59,11 @@ function Tours() {
       <p>Enjoy Kibera!</p>
     </div>
     </div>
+    <Footer/>
+    </>
 
       
   )
 }
 
-export default Tours;
+export default TourPage;

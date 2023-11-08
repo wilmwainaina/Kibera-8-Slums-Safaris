@@ -5,6 +5,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, Button, Row, Col, Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
 
 function Donations() {
   const navigate = useNavigate();
@@ -14,6 +15,7 @@ function Donations() {
   };
 
   return (
+    <>
     <Container className="py-5">
       <h1 className="text-3xl font-semibold text-center mb-9 text-black mt-24">Who We Partnered With:</h1>
       <p className="text-center">
@@ -61,6 +63,8 @@ function Donations() {
         ))}
       </Row>
     </Container>
+    <Footer/>
+    </>
   );
 }
 
