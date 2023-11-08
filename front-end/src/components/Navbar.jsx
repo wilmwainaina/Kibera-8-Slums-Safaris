@@ -23,6 +23,8 @@ function Navbar() {
               <NavItem icons={<BsCoin size={iconsize} />} to='/donations' label='Donations' />
               <NavItem icons={<LuTrees size={iconsize} />} to='/tours' label='Tours' />
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/gallery' label='Gallery' />
+              <NavItem icons={<AiFillPicture size={iconsize} />} to='/admin' label='Admin' />
+
             </ul>
           
         </div>
