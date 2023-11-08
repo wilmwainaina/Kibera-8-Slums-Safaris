@@ -8,7 +8,7 @@ const iconsize = 20;
 
 function Navbar() {
   return (
-    <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-2 border-black shadow-lg navbar '>
+    <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-4 border-black shadow-lg navbar '>
       
       <div className='px-4 flex justify-between items-center w-full h-full position: absolute;'>
         <div className='flex items-center'>
