@@ -28,12 +28,12 @@ function Navbar() {
         </div>
 
         <div className='flex'>
-          <button className='w-20 bg-[#027884] text-white border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4'>
+          <button className='w-30 bg-[#027884] text-white border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4'>
             sign in</button>
         </div>
 
         <div className='flex'>
-          <button className='w-20 bg-[#027884] text-white border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4'>
+          <button className='w-30 bg-[#027884] text-white border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4'>
             Donate</button>
         </div>
 
