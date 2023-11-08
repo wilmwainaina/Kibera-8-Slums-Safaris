@@ -8,7 +8,7 @@ const iconsize = 20;
 
 function Navbar() {
   return (
-    <div className='w-screen h-[80px] z-10 bg-[rgb(255,255,255)] fixed border-b-2 border-black shadow-lg navbar '>
+    <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-2 border-black shadow-lg navbar '>
       
       <div className='px-4 flex justify-between items-center w-full h-full position: absolute;'>
         <div className='flex items-center'>
@@ -18,7 +18,7 @@ function Navbar() {
 
           <div className=''>
             
-            <ul className='flex p-24'>
+            <ul className='flex p-24 ml-96'>
               <NavItem icons={<AiOutlineHome size={iconsize} />} to='/' label='Home' />
               <NavItem icons={<BsCoin size={iconsize} />} to='/donations' label='Donations' />
               <NavItem icons={<LuTrees size={iconsize} />} to='/tours' label='Tours' />
@@ -80,5 +80,6 @@ function NavItem({ icon, to, label }) {
   );
 }
 export default Navbar;
+
 
 

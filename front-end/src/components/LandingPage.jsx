@@ -44,6 +44,8 @@ function LandingPage() {
       initial="hidden"
       animate="visible"
     >
+      <div>
+      </div>
       <section id="roto" className={`w-11/12 ml-20 mt-20 ${isNavActive ? 'active' : ''}`}>
         <div id="rotoTransition" className="carousel slide carousel-fade  " data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false">
           <div className="carousel-inner">
