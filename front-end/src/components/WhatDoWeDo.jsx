@@ -2,6 +2,7 @@
 
 import React from "react";
 import OurCoreValues from "./OurCoreValues";
+import Footer from "./Footer";
 
 function WhatDoWeDo() {
   return (
@@ -68,6 +69,9 @@ function WhatDoWeDo() {
 
     </div>
     <OurCoreValues/>
+    <div className="mt-24">
+    <Footer/>
+    </div>
 
     </div>
   );

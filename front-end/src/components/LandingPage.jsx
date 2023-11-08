@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import DidYouKnow from './DidYouKnow';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import Footer from './Footer';
 
 function LandingPage() {
   const [isNavActive, setNavActive] = useState(false);
@@ -169,7 +170,9 @@ function LandingPage() {
       </section>
       <div className="ml-24 mt-4">
         <DidYouKnow />
+        
       </div>
+      <Footer/>
     </motion.div>
   );
 }
