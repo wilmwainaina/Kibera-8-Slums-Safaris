@@ -17,6 +17,8 @@ function RecentRequests() {
   return (
     <div>
  <div className='ml-72'>
+    <div>
+   <div className='ml-72'>
     <motion.div
       variants={containerVariants}
       initial="hidden"
