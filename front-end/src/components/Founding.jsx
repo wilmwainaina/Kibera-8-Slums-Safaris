@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -26,17 +24,24 @@ function Founding() {
               How we were established
             </h5>
             <p className="card-text">
-                   <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil officia alias earum deserunt enim molestias
-                voluptas placeat sint odit numquam mollitia, rerum qui laboriosam perspiciatis fugiat aspernatur? Commodi
-                illum nostrum provident libero impedit voluptates aperiam quaerat aspernatur maxime laborum beatae labore
-                numquam praesentium necessitatibus cupiditate saepe neque, aliquam adipisci! Quasi a tenetur magnam
-                dignissimos similique temporibus, inventore tempora suscipit, maiores ex libero consequatur itaque rerum
-                voluptate porro fugit neque in maxime vero aliquid. Dolore magnam temporibus iusto sapiente blanditiis,
-                 autem ea possimus nesciunt et quis aliquid a sed dolor illo neque nemo odit quae deserunt accusamus dolores
-                 debitis est libero.dignissimos similique temporibus, inventore tempora suscipit, maiores ex libero consequatur itaque rerum
-                voluptate porro fugit neque in maxime vero aliquid. Dolore magnam temporibus iusto sapiente blanditiis,
-                 autem ea possimus nesciunt et quis aliquid a sed dolor illo neque nemo odit quae deserunt accusamus dolores
-                 debitis est libero</p>
+              <p className="card-text">
+                Our journey began by working with a similar organization
+                dedicated to improving the lives of marginalized communities in
+                various slums. Drawing inspiration from the impactful work and
+                life-changing initiatives witnessed during our involvement with
+                this organization, we felt a profound sense of purpose and a
+                calling to make a difference. Motivated by the transformative
+                changes we witnessed within these communities, we embarked on
+                our own mission to bring hope and positive change to the lives
+                of those residing in Kibera slums. The experiences and lessons
+                learned while working with the previous organization became the
+                foundation upon which we built our own initiatives, emphasizing
+                the importance of healthcare access, education, vocational
+                training, and skill development. This journey has been a
+                testament to the power of collective efforts in addressing the
+                immediate needs of slum residents while nurturing long-term
+                self-sufficiency and empowerment.
+              </p>
             </p>
           </div>
         </div>
@@ -46,4 +51,3 @@ function Founding() {
 }
 
 export default Founding;
-

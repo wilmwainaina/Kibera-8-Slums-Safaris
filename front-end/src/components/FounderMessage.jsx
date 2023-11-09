@@ -11,26 +11,35 @@ function FounderMessage() {
       style={{ maxWidth: "1500px" }}
     >
       <h5 className="card-header text-xl font-semibold">
-        A MESSAGE FROM OUR FOUNDER DR. NOELLE MAINGI
+        A MESSAGE FROM OUR FOUNDER WILLIS
       </h5>
       <div className="card-body">
-          <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil officia alias earum deserunt enim molestias
-                voluptas placeat sint odit numquam mollitia, rerum qui laboriosam perspiciatis fugiat aspernatur? Commodi
-                illum nostrum provident libero impedit voluptates aperiam quaerat aspernatur maxime laborum beatae labore
-                numquam praesentium necessitatibus cupiditate saepe neque, aliquam adipisci! Quasi a tenetur magnam
-                dignissimos similique temporibus, inventore tempora suscipit, maiores ex libero consequatur itaque rerum
-                voluptate porro fugit neque in maxime vero aliquid. Dolore magnam temporibus iusto sapiente blanditiis,
-               autem ea possimus nesciunt et quis aliquid a sed dolor illo neque nemo odit quae deserunt accusamus dolores
-                 debitis est libero.dignissimos similique temporibus, inventore tempora suscipit, maiores ex libero consequatur itaque rerum
-                voluptate porro fugit neque in maxime vero aliquid. Dolore magnam temporibus iusto sapiente blanditiis,
-                autem ea possimus nesciunt et quis aliquid a sed dolor illo neque nemo odit quae deserunt accusamus dolores
-                debitis est libero</p>
-
+        <p className="card-text">
+          <span>Dear Reader, </span>
+          <br></br>
+          <br />
+          <span>
+            Our journey began with a similar organization dedicated to improving
+            the lives of marginalized communities in slums. Inspired by the
+            transformative changes we witnessed, we founded our organization
+            with a mission to bring hope and positive change to the residents of
+            Kibera slums. Drawing from our experiences, we prioritize healthcare
+            access, quality education, vocational training, and skill
+            development. Our journey reflects the power of collective efforts in
+            addressing immediate needs while fostering long-term
+            self-sufficiency. We are grateful for your support as we continue to
+            make a lasting impact in Kibera.
+          </span>
+          <br></br>
+          <br />
+          <span>Warm regards,</span>
+          <br></br>
+          <span>Willis</span>
+          <br></br> Founding Member of Kibera 8 Slum Tours
+        </p>
       </div>
     </motion.div>
   );
 }
 
 export default FounderMessage;
-
-
