@@ -34,7 +34,7 @@ function App() {
           <Route path='/organizationdashboard' element={<OrganizationDashboard/>}/>
           <Route path='/donationsform' element={<DonationForm/>}/>
           <Route path='/tours' element={<Tours/>}/>
-          <Route path='/login/signup' element={<LoginSignup/>}/>
+          <Route path='/loginsignup' element={<LoginSignup/>}/>
           <Route path="/donations" element={<Donations/>}/>
           <Route path="/whatwedo" element={<WhatDoWeDo/>}/>
           <Route path="/aboutus" element={<Accomplishments/>}/>
