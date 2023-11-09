@@ -9,13 +9,12 @@ const Login = () => {
     password: '',
   });
   const [flashMessage, setFlashMessage] = useState('');
+  const navigate = useNavigate();
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setUserData({ ...userData, [name]: value });
   };
-  const navigate = useNavigate();
-
 
   const handleLogin = () => {
     fetch('/api/User/login', {
@@ -27,18 +26,22 @@ const Login = () => {
     })
       .then((response) => {
         if (response.ok) {
-          // Login successful, handle success logic
           response.json().then((data) => {
-            // Store the user's access token for future authenticated requests
             const accessToken = data.access_token;
-            
+            const userRole = data.role; // Get the user's role from the response
+
+            // Store the user's access token for future authenticated requests
             localStorage.setItem('accessToken', accessToken);
-            console.log(accessToken);
-            console.log('Login successful');
-            console.log(data);
-            navigate("/aboutus")
-            
-        });
+
+            // Navigate based on the user's role
+            if (userRole === 'Admin' || userRole == 'superadmin') {
+              navigate('/admin'); // Redirect to the admin page
+            } else if (userRole === 'Donor') {
+              navigate('/donations'); // Redirect to the donor page
+            } else {
+              // Handle other roles or scenarios as needed
+            }
+          });
         } else {
           // Login failed, handle error logic
           response.json().then((data) => {
