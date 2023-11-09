@@ -19,6 +19,7 @@ function AllTours() {
 
   return (
     <div>
+      <div className='ml-72'>
     <motion.div
       variants={containerVariants}
       initial="hidden"
@@ -104,7 +105,7 @@ function AllTours() {
       <div>
         <button
           type="button"
-          className="btn btn-primary btn-lg learnmore mt-11 ml-96 viewmore"
+          className="btn btn-primary btn-lg learnmore mt-11 ml-44 viewmore"
           style={{ backgroundColor: "#027884", marginLeft: "415px" }}
           onClick={handleViewMoreClick}
         >
@@ -112,6 +113,7 @@ function AllTours() {
         </button>
       </div>
     </motion.div>
+    </div>
     </div>
   );
 }

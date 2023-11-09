@@ -23,7 +23,7 @@ function Donations() {
       </p>
 
       <Row className="mt-4">
-        {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((index) => (
+        {[1, 2, 3, 4, 5, 6].map((index) => (
           <Col md={4} key={index}>
             <motion.div
               initial={{ opacity: 0, y: 10 }}
@@ -63,6 +63,7 @@ function Donations() {
         ))}
       </Row>
     </Container>
+
     <Footer/>
     </>
   );
