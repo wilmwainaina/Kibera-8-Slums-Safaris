@@ -15,6 +15,7 @@ import GalleryPart from './components/GalleryPart';
 import Facts from './components/Facts';
 import IntroductionPart from './components/IntroductionPart';
 import OrganizationDashboard from './components/OrganizationDashboard';
+import LoginSignup from './components/LoginSignup';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path='/organizationdashboard' element={<OrganizationDashboard/>}/>
           <Route path='/donationsform' element={<DonationForm/>}/>
           <Route path='/tours' element={<Tours/>}/>
+          <Route path='/login/signup' element={<LoginSignup/>}/>
           <Route path="/donations" element={<Donations/>}/>
           <Route path="/whatwedo" element={<WhatDoWeDo/>}/>
           <Route path="/aboutus" element={<Accomplishments/>}/>
