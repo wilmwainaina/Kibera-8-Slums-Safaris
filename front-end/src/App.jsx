@@ -14,6 +14,8 @@ import AboutKibera from './components/AboutKibera';
 import GalleryPart from './components/GalleryPart';
 import Facts from './components/Facts';
 import IntroductionPart from './components/IntroductionPart';
+import OrganizationDashboard from './components/OrganizationDashboard';
+
 
 function App() {
   return (
@@ -21,12 +23,14 @@ function App() {
       <Navbar />
       <Router>
         <Routes>
+          
           <Route path='/introduction' element={<IntroductionPart/>}/>
           <Route path='/facts' element={<Facts/>}/>
           <Route path='/photogallery' element={<GalleryPart/>}/>
           <Route path='/aboutkibera' element={<AboutKibera/>}/>
           <Route path='/gallery' element={<PhotoGalleryAK/>}/>
           <Route path='/admin' element={<AdminDashboard/>}/>
+          <Route path='/organizationdashboard' element={<OrganizationDashboard/>}/>
           <Route path='/donationsform' element={<DonationForm/>}/>
           <Route path='/tours' element={<Tours/>}/>
           <Route path="/donations" element={<Donations/>}/>
