@@ -126,14 +126,9 @@ function LandingPage() {
             <div className="col-md-6">
               <h2 className="text-xl font-semibold">Why Kibera 8 Slums Safaris?</h2>
               <p className="longparagraph text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil officia alias earum deserunt enim molestias
-                voluptas placeat sint odit numquam mollitia, rerum qui laboriosam perspiciatis fugiat aspernatur? Commodi
-                illum nostrum provident libero impedit voluptates aperiam quaerat aspernatur maxime laborum beatae labore
-                numquam praesentium necessitatibus cupiditate saepe neque, aliquam adipisci! Quasi a tenetur magnam
-                dignissimos similique temporibus, inventore tempora suscipit, maiores ex libero consequatur itaque rerum
-                voluptate porro fugit neque in maxime vero aliquid. Dolore magnam temporibus iusto sapiente blanditiis,
-                autem ea possimus nesciunt et quis aliquid a sed dolor illo neque nemo odit quae deserunt accusamus dolores
-                debitis est libero.
+              In 2009, Kibera 8 slums Safari started organizing tours within Kibera. The first tours were developed in cooperation with Swedish, Danish, Dutch, etc., adoption families and the Sawadee. The enthusiastic reviews of the first tourists inspired us to go ahead and show Kibera to more and more tourists in Kenya.
+              Fighting poverty in Kibera by providing quality education that unlocks successful futures for all”. Quality education is understood as an education that empowers every individual by providing the basic skills and knowledge for the future, while nurturing their personal talents and creative capabilities.
+              Our mission is to promote Kibera as the city of hope. We promote Kibera as a city of hope by organizing tours and showing the mostly unseen part of Nairobi to tourists visiting Kenya. We show Kibera as it is. We visit different places with our guests to show them the positive sides of Kibera and the ways people try to improve their lives and work towards and hope for a better future.
               </p>
               <button type="button" className="btn btn-primary btn-lg learnmore mt-4" onClick={handleaccomplishmentsclick} style={{ backgroundColor: '#027884' }}>
                 KNOW MORE
@@ -154,14 +149,8 @@ function LandingPage() {
             <div className="col-md-6 hidder">
               <h2 className="text-xl font-semibold">What Do we Do?</h2>
               <p className="longparagraph text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil officia alias earum deserunt enim molestias
-                voluptas placeat sint odit numquam mollitia, rerum qui laboriosam perspiciatis fugiat aspernatur? Commodi
-                illum nostrum provident libero impedit voluptates aperiam quaerat aspernatur maxime laborum beatae labore
-                numquam praesentium necessitatibus cupiditate saepe neque, aliquam adipisci! Quasi a tenetur magnam
-                dignissimos similique temporibus, inventore tempora suscipit, maiores ex libero consequatur itaque rerum
-                voluptate porro fugit neque in maxime vero aliquid. Dolore magnam temporibus iusto sapiente blanditiis,
-                autem ea possimus nesciunt et quis aliquid a sed dolor illo neque nemo odit quae deserunt accusamus dolores
-                debitis est libero.
+              We promote Kibera as a city of hope by organizing tours and showing the mostly unseen part of Nairobi to tourists visiting Kenya. We show Kibera as it is. We visit different places with our guests to show them the positive sides of Kibera and the ways people try to improve their lives and work towards and hope for a better future.
+              We will also provide new hope by (co-)funding the projects and organizations that we will visit with our tours. Since we are a community-based non-profit organization, all our ‘profits’ go to Kibera-based projects to improve the lives of the children. Funding also supports the operations of our own Hope and Shine Center. Furthermore, the tours will provide employment for the people of Kibera.
               </p>
               <button type="button" className="btn btn-primary btn-lg learnmore mt-4" onClick={handlewhatwedoclick} style={{ backgroundColor: '#027884' }}>
                 KNOW MORE

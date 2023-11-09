@@ -1,8 +1,7 @@
 
 import React from 'react';
 import { motion } from "framer-motion";
-import AllTours from './AllTours';
-import RecentRequests from './RecentRequests';
+
 
 function MostPopular() {
   const containerVariants = {
@@ -11,13 +10,14 @@ function MostPopular() {
   };
   return (
     <div>
+<div className='ml-72'>
       <motion.div
         variants={containerVariants}
         initial="hidden"
         animate="visible"
         className='mostpopularTitle'
       >
-        <h3 className='text-black text-2xl ml-36 mb-6 mt-6 font-bold'>Most Popular</h3>
+        <h3 className='text-black text-2xl ml-96 mb-6 mt-6 font-bold'>Most Popular</h3>
       </motion.div>
 
       <motion.div
@@ -89,15 +89,14 @@ function MostPopular() {
         initial="hidden"
         animate="visible"
       >
-        <AllTours />
       </motion.div>
       <motion.div
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
-        <RecentRequests />
       </motion.div>
+    </div>
     </div>
   );
 }
