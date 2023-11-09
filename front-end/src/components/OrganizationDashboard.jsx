@@ -1,13 +1,14 @@
 import React from 'react';
 import Home from './Home';
 import Header from './Header';
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 
 const OrganizationDashboard = () => {
+  
   return (
     <div>
       <Header />
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Home />
       
     </div>
