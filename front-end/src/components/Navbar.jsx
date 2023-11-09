@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineMenu, AiOutlineHome, AiFillPicture } from 'react-icons/ai';
 import { BsCoin } from 'react-icons/bs';
 import { LuTrees } from 'react-icons/lu'
-import logosvg from '/home/wambui/finalproject/Kibera-8-Slums-Safaris/front-end/src/assets/logo.svg';
+import logosvg from '/src/assets/logo.svg';
 
 const iconsize = 20;
 
@@ -18,7 +18,7 @@ function Navbar() {
 
           <div className=''>
             
-            <ul className='flex p-24 ml-96'>
+            <ul className='flex p-24 ml-96 '>
               <NavItem icons={<AiOutlineHome size={iconsize} />} to='/' label='Home' />
               <NavItem icons={<BsCoin size={iconsize} />} to='/donations' label='Donations' />
               <NavItem icons={<LuTrees size={iconsize} />} to='/tours' label='Tours' />
@@ -69,8 +69,8 @@ function Navbar() {
 // Navigation Item Component
 function NavItem({ icon, to, label }) {
   return (
-    <li className="nav-item">
-      <div className="flex items-center">
+    <li className="nav-item ">
+      <div className="flex items-center hover:bg-slate-200 ">
         {icon}
         <a href={to} className="nav-link">
           {label}

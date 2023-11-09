@@ -1,7 +1,12 @@
 import React from 'react'
 import Footer from '../components/Footer';
+import { useNavigate } from "react-router-dom";
 
 function TourPage() {
+    const navigate = useNavigate()
+    const handleBookClick=()=>{
+        navigate("/bookingform")
+    }
   return (
     <>
     <div className='py-24 '>
@@ -57,7 +62,9 @@ function TourPage() {
 
       </div>
       <p>Enjoy Kibera!</p>
+      <a href="#" className="btn btn-primary btn-lg  mt-4 " style={{backgroundColor:"#027884"}} onClick={handleBookClick}>Donate</a>
     </div>
+    
     </div>
     <Footer/>
     </>

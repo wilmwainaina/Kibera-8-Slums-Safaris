@@ -5,7 +5,7 @@ function DidYouKnow() {
   const navigate= useNavigate()
   const handledidyouknowclick=()=>{
 
-    navigate("/adminpages")
+    navigate("/facts")
   }
 
 
