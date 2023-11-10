@@ -38,8 +38,8 @@ function Donations() {
 
   return (
     <>
-      <Container className="py-5">
-        <h1 className="text-3xl font-semibold text-center mb-9 text-black mt-24">
+      <Container className="">
+        <h1 className="text-3xl font-semibold text-center mb-9 text-black ">
           Who We Partnered With:
         </h1>
         <p className="text-center">
