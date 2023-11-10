@@ -76,10 +76,8 @@ function RecentRequests() {
     </motion.div>
     </div>
     </div>
-</div>
     </div>
-  );
-
+    </div>
   );
 }
 
