@@ -4,9 +4,11 @@ import { BsCoin } from 'react-icons/bs';
 import { LuTrees } from 'react-icons/lu'
 import logosvg from '/src/assets/logo.svg';
 
+
 const iconsize = 20;
 
 function Navbar() {
+
   return (
     <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-2 border-black shadow-lg navbar '>
       
@@ -32,8 +34,8 @@ function Navbar() {
         </div>
 
         <div className='flex'>
-          <button className='w-30 bg-[#027884] text-white border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4'>
-            sign in</button>
+          <button className='w-30 bg-[#027884] text-white border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4' >
+            Log In</button>
         </div>
 
         <div className='flex'>
