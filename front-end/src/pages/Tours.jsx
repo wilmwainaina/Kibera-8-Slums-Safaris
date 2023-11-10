@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer';
 import { useNavigate } from "react-router-dom";
+import PaymentMethod from '../components/PaymentMethod';
 
 function TourPage() {
     const navigate = useNavigate()
@@ -66,6 +67,8 @@ function TourPage() {
     </div>
     
     </div>
+    <PaymentMethod/>
+
     <Footer/>
     </>
 
