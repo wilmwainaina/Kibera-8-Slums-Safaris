@@ -7,7 +7,9 @@ function RecentRequestsSB(){
     return(
         <div>
             <Sidebar/>
+            <div className="">
             <RecentRequests/>
+            </div>
         </div>
     )
 }
