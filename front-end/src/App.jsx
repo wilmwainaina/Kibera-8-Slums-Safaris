@@ -20,6 +20,7 @@ import RecentRequestsSB from './components/RecentRequestSB';
 import OrganizationDashboard from './components/OrganizationDashboard';
 import Signup from './components/LoginSignup';
 import Login from './components/Login';
+import OrganizationRequestPage from './components/OrganizationRegister';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           <Route path="/donations" element={<Donations/>}/>
           <Route path="/whatwedo" element={<WhatDoWeDo/>}/>
           <Route path="/aboutus" element={<Accomplishments/>}/>
+          <Route path="/org" element={<OrganizationRequestPage/>}/>
           <Route path="/" element ={<LandingPage/>}/>
 
 

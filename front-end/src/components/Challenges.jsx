@@ -17,7 +17,8 @@ const Challenges = () => {
               <div className="content">
                 <div className="icon iconCodepen"></div>
                 <h2>OverPopulation</h2>
-                <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+                <p>
+                High population strains resources, requiring sustainable development and family planning.                  </p>
               </div>
             </li>
             <li>
@@ -30,7 +31,8 @@ const Challenges = () => {
               <div className="content">
                 <div className="icon iconSocial"></div>
                 <h2>Poverty</h2>
-                <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+                <p>
+                Insufficient resources hinder basic living, requiring economic, social, and educational upliftment.                  </p>
               </div>
             </li>
             <li>
@@ -43,7 +45,8 @@ const Challenges = () => {
               <div className="content">
                 <div className="icon iconAirplane"></div>
                 <h2>Insecurity</h2>
-                <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+                <p>
+                Crime and vulnerability challenge safety, necessitating community policing and awareness.                  </p>
               </div>
             </li>
             <li>
@@ -56,7 +59,8 @@ const Challenges = () => {
               <div className="content">
                 <div className="icon iconMap"></div>
                 <h2>Inadequate Housing</h2>
-                <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+                <p>
+                Housing shortage demands affordable projects, regulations, and community development efforts.                  </p>
               </div>
             </li>
             <li>
@@ -69,7 +73,10 @@ const Challenges = () => {
               <div className="content">
                 <div className="icon iconBulb"></div>
                 <h2>Limited Healthcare</h2>
-                <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+                <p>
+                Scarce medical services call for improved infrastructure, professionals, and public health.
+
+                  </p>
               </div>
             </li>
           </ul>

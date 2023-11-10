@@ -11,8 +11,7 @@ function Footer() {
         <div>
           <h1 className='text-2xl font-bold mr-4 sm:text-4xl'>
             KIBERA 8 SLUM SAFARIS</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, atque similique consequatur eaque consectetur aut vel perspiciatis molestiae asperiores, laboriosam numquam. Quaerat cupiditate deserunt rem animi corporis, 
-          ipsam maiores ratione.</p>
+          <p>Empowering Hope, Transforming Lives: Bridging Hearts for a Better Tomorrow in the Slums.</p>
         </div>
 
         <div className='flex justify-between md:w-[75%] my-6'>
@@ -20,7 +19,12 @@ function Footer() {
           <AiFillGithub size={30}/>
           <AiFillTwitterSquare size={30}/>
           <AiOutlineInstagram size={30}/>
-       
+       <br></br>
+       <div className='px-4'>
+        <p>Contact us on ; +25412345678</p>
+        <p>Email; org@gmail.com</p>
+       </div>
+
         </div>
        
       
