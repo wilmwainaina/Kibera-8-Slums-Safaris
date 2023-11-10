@@ -18,8 +18,8 @@ import MostPopSB from './components/MostPopSb';
 import AllToursSB from './components/AllToursSB';
 import RecentRequestsSB from './components/RecentRequestSB';
 import OrganizationDashboard from './components/OrganizationDashboard';
-import LoginSignup from './components/LoginSignup';
-
+import Signup from './components/LoginSignup';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -43,7 +43,8 @@ function App() {
           <Route path='/organizationdashboard' element={<OrganizationDashboard/>}/>
           <Route path='/donationsform' element={<DonationForm/>}/>
           <Route path='/tours' element={<Tours/>}/>
-          <Route path='/login/signup' element={<LoginSignup/>}/>
+          <Route path='/signup' element={<Signup/>}/>
+          <Route path='/login' element={<Login/>} />
           <Route path="/donations" element={<Donations/>}/>
           <Route path="/whatwedo" element={<WhatDoWeDo/>}/>
           <Route path="/aboutus" element={<Accomplishments/>}/>

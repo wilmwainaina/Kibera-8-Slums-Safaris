@@ -63,7 +63,7 @@ function TourPage() {
 
       </div>
       <p>Enjoy Kibera!</p>
-      <a href="#" className="btn btn-primary btn-lg  mt-4 " style={{backgroundColor:"#027884"}} onClick={handleBookClick}>Donate</a>
+      <a href="#" className="btn btn-primary btn-lg  mt-4 " style={{backgroundColor:"#027884"}} onClick={handleBookClick}>Book Now!</a>
     </div>
     
     </div>

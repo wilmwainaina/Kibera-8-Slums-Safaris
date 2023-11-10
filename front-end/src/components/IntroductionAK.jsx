@@ -1,4 +1,3 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -22,12 +21,32 @@ function IntroductionAK() {
               Welcome To Kibera: A Window into Nairobi's Vibrant Community
             </h1>
             <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet justo non nunc aliquam, quis               tristique erat venenatis. Proin ut orci non sapien ultrices cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet justo non nunc aliquam, quis
-               tristique erat venenatis. Proin ut orci non sapien ultrices cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet justo non nunc aliquam, quis
-              tristique erat venenatis. Proin ut orci non sapien ultrices cursus.              tristique erat venenatis. Proin ut orci non sapien ultrices cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet justo non nunc aliquam, quis
-            tristique erat venenatis. Proin ut orci non sapien ultrices cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet justo non nunc aliquam, quis
-               tristique erat venenatis. Proin ut orci non sapien ultrices cursus.
+              Welcome to Kibera, a vibrant window into Nairobi's diverse
+              community. Kibera is a place where life's stories unfold with
+              remarkable resilience and unity. The winding pathways of Kibera echo tales of
+              strength, tenacity, and unbreakable spirit. It's a community where
+              diversity thrives, showcasing the triumph of humanity over
+              adversity.
+            </p>
+            <br></br>
 
+            <p>
+              In the heart of Kibera, amidst the colorful streets and lively
+              neighborhoods, you'll find a microcosm of life's extraordinary
+              journey. The people of Kibera come from diverse backgrounds,
+              creating a vibrant mosaic of cultures and experiences. Amidst the
+              challenges, this community is bound by a shared determination to
+              rise above adversity.
+            </p>
+            <br></br>
+
+            <p>
+              Whether you're wandering through the bustling markets, engaging
+              with local artisans, or simply experiencing everyday life, Kibera
+              offers a unique perspective that reminds us of the resilience of
+              the human spirit. Kibera is more than a place; it's an inspiring testament
+              to the strength and unity that emerges when people come together
+              to create a brighter future.
             </p>
           </div>
           <div className="flex justify-center items-center">
