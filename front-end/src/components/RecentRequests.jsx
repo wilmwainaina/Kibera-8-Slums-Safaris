@@ -75,9 +75,6 @@ function RecentRequests() {
       </table>
     </motion.div>
     </div>
-    
-</div>
-    </div>
 
   );
 }
