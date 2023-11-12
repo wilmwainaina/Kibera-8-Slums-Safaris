@@ -6,7 +6,7 @@ import HistoryAK from "./HistoryAK";
 
 function AboutKibera(){
     return(
-        <div className="">
+        <div >
             <HeaderAK/>
             <IntroductionAk/>
             <div className="mt-12"> 

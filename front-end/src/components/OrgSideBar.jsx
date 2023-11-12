@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { FiUser } from 'react-icons/fi';
 import { BsFillBarChartFill, BsFillGrid3X3GapFill, BsPeopleFill, BsListCheck } from 'react-icons/bs';
@@ -78,6 +77,7 @@ const OrgSidebar = ({ openSidebarToggle }) => {
     </aside>
   );
 };
+
 
 export default OrgSidebar;
 

@@ -1,6 +1,3 @@
-
-
-
 import React from 'react';
 import { BsFillBellFill, BsFillEnvelopeFill, BsPersonCircle, BsSearch, BsJustify } from 'react-icons/bs';
 
@@ -33,4 +30,7 @@ function Header({ OpenSidebar }) {
     </header>
   );
 }
-export default Header
+
+
+export default Header;
+
