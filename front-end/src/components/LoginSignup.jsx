@@ -47,7 +47,7 @@ const Signup = () => {
       });
   };
   return (
-    <div className="container">
+    <div className="container bg-gray-100 w-1/3 pt-12">
       <div className="header">
         <div className="text">Sign Up</div>
         <div className="underline"></div>
@@ -94,7 +94,7 @@ const Signup = () => {
         </div>
       </div>
 
-      <div className="submit-container">
+      <div className="submit-container flex block">
         <div
           className="submit"
           onClick={() => {
@@ -103,9 +103,11 @@ const Signup = () => {
         >
           Sign Up
         </div>
+        <div>
         <p>
           Already have an account? <Link to="/login">Login here</Link> {/* Link to the login page */}
         </p>
+        </div>
       </div>
       {flashMessage && <div className="alert alert-danger">{flashMessage}</div>}
     </div>
