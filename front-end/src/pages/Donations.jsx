@@ -7,6 +7,16 @@ import Footer from "../components/Footer";
 function Donations() {
   const navigate = useNavigate();
 
+  const handleCardClick = (storyId) => {
+    if (storyId === 1) {
+      navigate(`stories/${storyId}`);
+    }else if (storyId === 2) {
+      window.location.href = "https://www.google.com/search?q=kibera+slum+photos&sca_esv=581468142&ei=L0lPZa_rEoyskdUPyoO5sAY&oq=kibera+slum&gs_lp=Egxnd3Mtd2l6LXNlcnAiC2tpYmVyYSBzbHVtKgIIBDIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYigUYsAMYQzIKEAAYigUYsAMYQzIKEAAYigUYsAMYQzIKEAAYigUYsAMYQzIQEC4YigUYyAMYsAMYQ9gBATIQEC4YigUYyAMYsAMYQ9gBATIQEC4YigUYyAMYsAMYQ9gBATIQEC4YigUYyAMYsAMYQ9gBATIWEC4YigUYxwEYrwEYyAMYsAMYQ9gBATIQEC4YigUYyAMYsAMYQ9gBATIQEC4YigUYyAMYsAMYQ9gBATIQEC4YigUYyAMYsAMYQ9gBAUjtFVAAWABwAngBkAEAmAEAoAEAqgEAuAEByAEA4gMEGAAgQYgGAZAGFLoGBggBEAEYCA&sclient=gws-wiz-serp";
+    }else if (storyId === 3) {
+      window.location.href = "https://www.google.com/search?q=largest+slum+in+nairobi&sca_esv=581468142&ei=Zk1PZcfRCJ6nkdUP0Imf-Aw&oq=kibera+slum+ph&gs_lp=Egxnd3Mtd2l6LXNlcnAiDmtpYmVyYSBzbHVtIHBoKgIIBjIHEAAYigUYQzICECYyAhAmMgIQJjICECYyAhAmMggQABiKBRiGAzIIEAAYigUYhgMyCBAAGIoFGIYDMggQABiKBRiGA0icN1CyBFiJCnABeACQAQCYAYoGoAGxD6oBCTMtMi4wLjEuMbgBAcgBAPgBAcICCBAAGIAEGLADwgILEAAYigUYhgMYsAPiAwQYASBBiAYBkAYE&sclient=gws-wiz-serp"
+    }
+  };
+
   const handleFormClick = () => {
     navigate("/donationsform");
   };
@@ -38,8 +48,8 @@ function Donations() {
 
   return (
     <>
-      <Container className="py-5">
-        <h1 className="text-3xl font-semibold text-center mb-9 text-black mt-24">
+      <Container className="">
+        <h1 className="text-3xl font-semibold text-center mb-9 text-black ">
           Who We Partnered With:
         </h1>
         <p className="text-center">
@@ -79,12 +89,17 @@ function Donations() {
                     <Card.Text>{card.description}</Card.Text>
                     <br />
                     <div className="d-flex justify-content-between">
-                      <Button
-                        variant="primary"
-                        className="w-45 bg-[#027884] text-white rounded-md py-2 px-4 cursor-pointer"
+                      <a
+                      href="https://www.google.com/search?q=kibera+slum&sca_esv=581468142&ei=D0lPZcKhEaThkdUPgZuRkAY&oq=kibera&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmtpYmVyYSoCCAAyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGIoFGLADGEMyChAAGIoFGLADGEMyChAAGIoFGLADGEMyChAAGIoFGLADGEMyDhAAGOQCGNYEGLAD2AEBMg4QABjkAhjWBBiwA9gBATIOEAAY5AIY1gQYsAPYAQEyEBAuGIoFGMgDGLADGEPYAQIyEBAuGIoFGMgDGLADGEPYAQIyEBAuGIoFGMgDGLADGEPYAQIyEBAuGIoFGMgDGLADGEPYAQJIgC1QAFgAcAF4AZABAJgBAKABAKoBALgBAcgBAOIDBBgAIEGIBgGQBhO6BgYIARABGAm6BgYIAhABGAg&sclient=gws-wiz-serp"
+                      target="-blank"
+                      rel="noopener noreferrer"
+                      className="w-45 bg-[#027884] text-white rounded-md py-2 px-4 cursor-pointer text-decoration-none"
+                      onClick={() => handleCardClick(index + 1 )}  
                       >
                         Story
-                      </Button>
+
+                      </a>
+                      
                       <Button
                         variant="primary"
                         className="w-45 bg-[#027884] text-white rounded-md py-2 px-4 cursor-pointer"
