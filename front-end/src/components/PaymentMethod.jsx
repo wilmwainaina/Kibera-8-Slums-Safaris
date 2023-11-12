@@ -4,6 +4,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import axios from 'axios';
 
+
 const stripePromise = loadStripe('pk_test_51O81bpKzISa8iycocqCasHyPk4vVo9xxdq01l8CLT8p5ZkhKOEwTGuZa2jgfRrwyQbGUcXq5zGpLDqI07sXbknL4007Zk5Y6aB');
 
 const DonationForm = () => {
@@ -62,54 +63,63 @@ const DonationForm = () => {
     });
   };
 
+  const style={
+    backgroundColour:'#027884',
+  }
+
   return (
-    <div className='container mx-auto px-4 py-8'>
+    <div className='container px-4 py-14 bg-gray-200 mb-12 w-3/4 box-shadow'>
       <h2 className='text-2xl font-bold mb-4'>Donation Form</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label>Amount:</label>
+        <div className='mb-4'>
+          <label className='font-semibold'>Amount:</label>
           <input
             type="number"
             name="amount"
             value={formData.amount}
             onChange={handleChange}
+            className='ml-10 py-2'
+
           />
         </div>
-        <div>
-          <label>Organization Name:</label>
+        <div className='mb-4'>
+          <label  className='font-semibold'>Organization Name:</label>
           <input
             type="text"
             name="organization_name"
             value={formData.organization_name}
             onChange={handleChange}
+            className='ml-10 py-2'
           />
         </div>
-        <div>
-          <label>Is Anonymous:</label>
+        <div className='mb-4'>
+          <label  className='font-semibold'>Is Anonymous:</label>
           <input
             type="checkbox"
             name="is_anonymous"
             checked={formData.is_anonymous}
             onChange={handleCheckboxChange}
+            className='ml-12 '
           />
         </div>
-        <div>
-          <label>Recurrence Interval:</label>
+        <div className='mb-4'>
+          <label  className='font-semibold'>Recurrence Interval:</label>
           <select
             name="recurrence_interval"
             value={formData.recurrence_interval}
             onChange={handleChange}
+            className='ml-6 py-2'
           >
             <option value="">One-Time</option>
             <option value="monthly">Monthly</option>
             <option value="yearly">Yearly</option>
           </select>
         </div>
-        <div>
-          <label>Card Information:</label>
+        <div className='mb-4'>
+          <label  className='font-semibold'>Card Information:</label>
           <CardElement />
         </div>
-        <button type="submit">Donate</button>
+        <button   className='font-semibold bg-white py-3 px-5 2 ml-96 '  type="submit" style={style}>Donate</button>
       </form>
     </div>
   );
