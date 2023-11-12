@@ -5,51 +5,51 @@ import Footer from "./Footer";
 const imageInfo = [
     {
       imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-      description: "Description for Image 1",
+      
     },
     {
       imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-      description: "Description for Image 2",
+      
     },
     {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 3",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 4",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 5",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 6",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 7",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 8",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 9",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 10",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 11",
+        
       },
       {
         imageUrl: "https://tagree.de/wp-content/uploads/2021/12/Photo-by-Samson-Otieno-from-the-series-Life-in-Kibera-on-the-outskirts-of-Nairobi-1-@-Samson-Otieno.jpg",
-        description: "Description for Image 12",
+        
       },
   
   

@@ -2,13 +2,17 @@ import React from 'react';
 import { AiOutlineMenu, AiOutlineHome, AiFillPicture } from 'react-icons/ai';
 import { BsCoin } from 'react-icons/bs';
 import { LuTrees } from 'react-icons/lu'
-import logosvg from '/home/wambui/finalproject/Kibera-8-Slums-Safaris/front-end/src/assets/logo.svg';
+import logosvg from '/src/assets/logo.svg';
+
 
 const iconsize = 20;
 
 function Navbar() {
+
+  const shouldShowLoginLink = location.pathname !== '/login';
+
   return (
-    <div className='w-screen h-[80px] z-10 bg-[rgb(255,255,255)] fixed border-b-2 border-black shadow-lg navbar '>
+    <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-2 border-black shadow-lg navbar '>
       
       <div className='px-4 flex justify-between items-center w-full h-full position: absolute;'>
         <div className='flex items-center'>
@@ -18,7 +22,7 @@ function Navbar() {
 
           <div className=''>
             
-            <ul className='flex p-24'>
+            <ul className='flex p-24 ml-96 '>
               <NavItem icons={<AiOutlineHome size={iconsize} />} to='/' label='Home' />
               <NavItem icons={<BsCoin size={iconsize} />} to='/donations' label='Donations' />
               <NavItem icons={<LuTrees size={iconsize} />} to='/tours' label='Tours' />
@@ -33,9 +37,11 @@ function Navbar() {
           
         </div>
 
-        <div className='flex'>
-          <button className='w-30 bg-[#027884] text-white border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4'>
-            sign in</button>
+        <div className='flex items-center'>
+          <ul className='w-30 bg-[#027884]  border-none rounded-md py-0 px-7 mt-4 cursor-pointer m-4' >
+          {shouldShowLoginLink && <NavItem  to='/login' label='Log In' />}
+
+            </ul>
         </div>
 
         <div className='flex'>
@@ -71,8 +77,8 @@ function Navbar() {
 // Navigation Item Component
 function NavItem({ icon, to, label }) {
   return (
-    <li className="nav-item">
-      <div className="flex items-center">
+    <li className="nav-item ">
+      <div className="flex items-center hover:bg-slate-200 ">
         {icon}
         <a href={to} className="nav-link">
           {label}
@@ -82,5 +88,6 @@ function NavItem({ icon, to, label }) {
   );
 }
 export default Navbar;
+
 
 

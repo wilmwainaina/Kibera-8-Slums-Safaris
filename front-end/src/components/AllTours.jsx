@@ -19,6 +19,7 @@ function AllTours() {
 
   return (
     <div>
+      <div className='ml-72'>
     <motion.div
       variants={containerVariants}
       initial="hidden"
@@ -41,9 +42,10 @@ function AllTours() {
               <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/c1/9a/06.jpg" alt="rover" />
             </div>
             <div className="card-bodymostpopular">
+              <h1 className='font-bold  text-xl mb-3'>Victoria Crafts</h1>
               <p className="text-black">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+            This is a a collective that is at the forefront of collecting trash and repurposing as jewelry. The group is collecting old and fresh bones, brass, and horns, transforming them into jewelry, bowls, and trinkets.          
+                </p>
               <button
                 type="button"
                 className="btn btn-primary btn-lg learnmore mt-11"
@@ -64,9 +66,10 @@ function AllTours() {
               <img src="https://genetsafaris.com/wp-content/uploads/2016/09/kibera-slum.jpg" alt="balloons" />
             </div>
             <div className="card-bodymostpopular">
+            <h1 className='font-bold  text-xl mb-3'> Power Women Group-</h1>
+
               <p className="text-black">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+             This is a group of 15 women infected and affected by HIV/AIDS. The group was started with the aim of eradicating stigma and discrimination in the society through creation of community awareness on the same disease.              </p>
               <button
                 type="button"
                 className="btn btn-primary btn-lg learnmore mt-11"
@@ -87,9 +90,10 @@ function AllTours() {
               <img src="https://genetsafaris.com/wp-content/uploads/2016/09/kibera-slum.jpg" alt="balloons" />
             </div>
             <div className="card-bodymostpopular">
+            <h1 className='font-bold  text-xl mb-3'>SHOFCO</h1>
+
               <p className="text-black">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+              This is a grassroots movement that catalyzes large-scale transformation in urban slums by providing critical services for all, community advocacy platforms, and education and leadership development for women and girls.              </p>
               <button
                 type="button"
                 className="btn btn-primary btn-lg learnmore mt-11"
@@ -104,7 +108,7 @@ function AllTours() {
       <div>
         <button
           type="button"
-          className="btn btn-primary btn-lg learnmore mt-11 ml-96 viewmore"
+          className="btn btn-primary btn-lg learnmore mt-11 ml-44 viewmore"
           style={{ backgroundColor: "#027884", marginLeft: "415px" }}
           onClick={handleViewMoreClick}
         >
@@ -112,6 +116,7 @@ function AllTours() {
         </button>
       </div>
     </motion.div>
+    </div>
     </div>
   );
 }

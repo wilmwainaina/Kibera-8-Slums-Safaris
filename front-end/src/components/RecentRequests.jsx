@@ -15,6 +15,10 @@ function RecentRequests() {
   };
 
   return (
+    <div>
+ <div className=''>
+       <div>
+   <div className='ml-72'>
     <motion.div
       variants={containerVariants}
       initial="hidden"
@@ -70,6 +74,11 @@ function RecentRequests() {
         </tbody>
       </table>
     </motion.div>
+    </div>
+    </div>
+    </div>
+    </div>
+
   );
 }
 
