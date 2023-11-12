@@ -29,6 +29,8 @@ function Navbar() {
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/gallery' label='Gallery' />
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/admin' label='Admin' />
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/aboutkibera' label='About Kibera'/>
+              <NavItem icons={<AiFillPicture size={iconsize} />} to='/organizations' label='/Organizations'/>
+
 
 
             </ul>
