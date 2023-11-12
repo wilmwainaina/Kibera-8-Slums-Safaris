@@ -58,13 +58,13 @@ const Login = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container bg-gray-200 w-1/3 rounded-lg bg-gray-300 p-4 shadow-xl">
       <div className="header">
         <div className="text">Login</div>
         <div className="underline"></div>
       </div>
-      <div className="inputs">
-        <div className="input">
+      <div className=" logininputs1">
+        <div className=" logininputs1 mb-4 mt-4 ">
           <img src="{user_icon}" alt="" />
           <input
             type="email"
@@ -72,9 +72,10 @@ const Login = () => {
             name="email"
             value={userData.email}
             onChange={handleInputChange}
+            className='p-2 ml-36'
           />
         </div>
-        <div className="input">
+        <div className="logininputs2">
           <img src="{password_icon}" alt="" />
           <input
             type="password"
@@ -82,6 +83,8 @@ const Login = () => {
             name="password"
             value={userData.password}
             onChange={handleInputChange}
+            className='p-2  ml-36 py-10'
+
           />
         </div>
       </div>
@@ -97,7 +100,7 @@ const Login = () => {
         </div>
       </div>
       {flashMessage && <div className="alert alert-danger">{flashMessage}</div>}
-      <p>
+      <p className=' text-center  font-semibold'>
         Don't have an account? <Link to="/signup">Sign Up here</Link>
       </p>
     </div>
