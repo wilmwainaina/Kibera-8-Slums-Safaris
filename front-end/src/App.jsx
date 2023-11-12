@@ -27,6 +27,7 @@ function App() {
           <Route path='/aboutkibera' element={<AboutKibera/>}/>
           <Route path='/gallery' element={<PhotoGalleryAK/>}/>
           <Route path='/admin' element={<AdminDashboard/>}/>
+          <Route path='/organizations' element={<OrganizationDashboard/>}/>
           <Route path='/donationsform' element={<DonationForm/>}/>
           <Route path='/tours' element={<Tours/>}/>
           <Route path="/donations" element={<Donations/>}/>
