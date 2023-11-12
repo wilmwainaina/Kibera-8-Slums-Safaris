@@ -9,6 +9,8 @@ const iconsize = 20;
 
 function Navbar() {
 
+  const shouldShowLoginLink = location.pathname !== '/login';
+
   return (
     <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-2 border-black shadow-lg navbar '>
       
@@ -33,9 +35,11 @@ function Navbar() {
           
         </div>
 
-        <div className='flex'>
-          <button className='w-30 bg-[#027884] text-white border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4' >
-            Log In</button>
+        <div className='flex items-center'>
+          <ul className='w-30 bg-[#027884]  border-none rounded-md py-0 px-7 mt-4 cursor-pointer m-4' >
+          {shouldShowLoginLink && <NavItem  to='/login' label='Log In' />}
+
+            </ul>
         </div>
 
         <div className='flex'>

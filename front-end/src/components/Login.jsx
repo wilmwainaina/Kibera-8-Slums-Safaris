@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link  } from 'react-router-dom';
 import './LoginSignup.css';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+    const [loading, setLoading] = useState(false);
   const [userData, setUserData] = useState({
     email: '',
     password: '',
@@ -53,6 +54,7 @@ const Login = () => {
       .catch((error) => {
         console.error('Error:', error);
       });
+    navigate('/Tours-and-Donations');
   };
 
   return (
