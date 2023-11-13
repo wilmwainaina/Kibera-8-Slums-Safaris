@@ -54,7 +54,7 @@ const Login = () => {
       .catch((error) => {
         console.error('Error:', error);
       });
-    navigate('/Tours-and-Donations');
+    navigate('/Donations');
   };
 
   return (
