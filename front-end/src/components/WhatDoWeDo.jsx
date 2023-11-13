@@ -5,7 +5,7 @@ import Footer from "./Footer";
 function WhatDoWeDo() {
   return (
     <div>
-      <div className=" relative mt-20 w-4/5 ml-52 ">
+      <div className=" relative mt-10 w-4/5 ml-52 ">
         <section className="light">
           <div className="container py-2">
             <div className="h1 text-center text-dark" id="pageHeaderTitle">
@@ -49,7 +49,7 @@ function WhatDoWeDo() {
           </div>
         </section>
         <section className="light">
-          <div className="container py-2">
+          <div className="container">
             <article className="postcard light blue">
               <div className="postcard__text t-dark">
                 <h1 className="postcard__title blue">
@@ -62,18 +62,18 @@ function WhatDoWeDo() {
                 </div>
                 <div className="postcard__bar"></div>
                 <div className="postcard__preview-txt">
-                  Our vision is to empower our clients to live their dreams and
-                  make their travel aspirations a reality. We achieve this by
-                  offering a comprehensive array of services that cater to all
-                  aspects of their journeys. We are responsive to the
-                  ever-evolving needs of our clients, ensuring flexibility and
-                  adaptability in all facets of our service. From meticulously
-                  planned itineraries to spontaneous getaways, we create
-                  opportunities for individuals and groups to explore the world
-                  with confidence. By combining our purpose-driven approach with
-                  our commitment to turning visions into cherished experiences,
-                  we play a vital role in the travel industry, making travel
-                  dreams come true for everyone we serve.
+                  In 2009, Kibera Tours started organizing tours within Kibera.
+                  The first tours were developed in cooperation with Swedish,
+                  Danish, Dutch, etc., adoption families and the Sawadee. The
+                  enthusiastic reviews of the first tourists inspired us to go
+                  ahead and show Kibera to more and more tourists in Kenya. We
+                  will also provide new hope by (co-)funding the projects and
+                  organizations that we will visit with our tours. Since we are
+                  a community-based non-profit organization, all our ‘profits’
+                  go to Kibera-based projects to improve the lives of the
+                  children. Funding also supports the operations of our own Hope
+                  and Shine Center. Furthermore, the tours will provide
+                  employment for the people of Kibera.
                 </div>
                 <a className="postcard__img_link" href="#"></a>
               </div>
