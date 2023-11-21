@@ -5,15 +5,15 @@ import { FaSignOutAlt } from 'react-icons/fa';
 
 const OrgSidebar = ({ openSidebarToggle }) => {
   const sidebarStyle = {
-    display: 'grid',
-    gridArea: 'sidebar',
+    width: '300px',
+    position: 'fixed ',
+    top: '72px',
+    left: 0,
     height: '100%',
     backgroundColor: '#027884',
-    overflowY: 'auto',
-    transition: 'all 0.5s',
-    WebkitTransition: 'all 0.5s',
-    position: 'absolute',
-    zIndex: openSidebarToggle ? 12 : 'initial',
+    color: 'white',
+    padding: '1rem',
+    transition: 'width 0.3s',
   };
 
   const titleStyle = {
@@ -43,7 +43,7 @@ const OrgSidebar = ({ openSidebarToggle }) => {
     <aside style={sidebarStyle} id="sidebar">
       <div style={titleStyle} className="sidebar-title">
         <div style={brandStyle} className="sidebar-brand">
-          <FiUser size={32} color="black" /> Admin Page
+          <FiUser size={52} color="black" className='py-2'/> Admin Page
         </div>
       </div>
 

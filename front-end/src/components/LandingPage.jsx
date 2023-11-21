@@ -163,7 +163,7 @@ function LandingPage() {
         <DidYouKnow />
         
       </div>
-      <Footer/>
+      <Footer />
     </motion.div>
   );
 }

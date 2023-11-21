@@ -115,6 +115,7 @@ const DonationForm = () => {
             onChange={handleChange}
             className='ml-2 py-2'
           >
+            <option value="">Never</option>
             <option value="">One-Time</option>
             <option value="monthly">Monthly</option>
             <option value="yearly">Yearly</option>

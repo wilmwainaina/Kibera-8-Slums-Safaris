@@ -16,9 +16,9 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-96 py-36   text-white h-screen" style={sidebarStyle}>
+    <div className="w-96 py-36 text-white h-screen" style={sidebarStyle}>
     <div className="p-4">
-      <h2 className="text-2xl font-bold mb-16">Dashboard</h2>
+      <h2 className="text-2xl font-bold mb-16 py-24">Dashboard</h2>
       <ul className='ml-12 '>
         <li className="flex items-center mb-16 font-bold">
           <span className="mr-2">🏠</span>

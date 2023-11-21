@@ -49,10 +49,10 @@ function Donations() {
   return (
     <>
       <Container className="">
-        <h1 className="text-3xl font-semibold text-center mb-9 text-black ">
+        <h1 className="text-3xl font-semibold text-center mb-9 text-black  ">
           Who We Partnered With:
         </h1>
-        <p className="text-center">
+        <p className="text-center py-4">
           We actively seek partnerships with organizations whose missions and
           goals revolve around creating employment opportunities, empowering
           women, eradicating poverty, and promoting recycling. These
@@ -67,7 +67,7 @@ function Donations() {
           work on our goals:
         </p>
 
-        <Row className="mt-4">
+        <Row className="mt-4 py-8">
           {cardsData.map((card, index) => (
             <Col md={4} key={index}>
               <motion.div

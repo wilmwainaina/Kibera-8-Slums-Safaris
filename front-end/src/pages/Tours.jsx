@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';

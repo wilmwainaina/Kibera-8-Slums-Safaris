@@ -13,8 +13,8 @@ const headerStyle = {
 
 function Header({ OpenSidebar }) {
   return (
-    <header style={headerStyle}>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+    <header style={headerStyle} className='pl-96'>
+      <div style={{ display: 'flex', alignItems: 'center' }} className='pl-96'>
         <div style={{ marginRight: '10px' }}>
           <BsJustify style={{ verticalAlign: 'middle', lineHeight: '1px', fontSize: '20px' }} onClick={OpenSidebar} />
         </div>

@@ -21,12 +21,15 @@ import OrganizationDashboard from './components/OrganizationDashboard';
 import Signup from './components/LoginSignup';
 import Login from './components/Login';
 import OrganizationRequestPage from './components/OrganizationRegister';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    
+      
       <Router>
+        <div>
+          <Navbar />
         <Routes>
           
           <Route path="/admin/recentrequests" element={<RecentRequestsSB />} />
@@ -54,12 +57,15 @@ function App() {
 
 
         </Routes>
-      </Router>
+
+        
+        </div>
+      
 
 
       {/* <Footer /> */}
-    </div>
-  )
+    </Router>
+  );
 }
 
 export default App

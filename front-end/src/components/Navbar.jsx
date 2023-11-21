@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className='w-screen h-[120px] z-10 bg-[rgb(255,255,255)]  border-b-2 border-black shadow-lg navbar '>
       
-      <div className='px-4 flex justify-between items-center w-full h-full position: absolute;'>
+      <div className='px-4 flex justify-between items-center w-full h-full position: fixed;'>
         <div className='flex items-center'>
           <div className='m-4'>
               <img src={logosvg} alt='logo' className='w-20' />
@@ -22,24 +22,22 @@ function Navbar() {
 
           <div className=''>
             
-            <ul className='flex p-24 ml-96 '>
+            <ul className='flex p-24  ml-4'>
               <NavItem icons={<AiOutlineHome size={iconsize} />} to='/' label='Home' />
               <NavItem icons={<BsCoin size={iconsize} />} to='/donations' label='Donations' />
               <NavItem icons={<LuTrees size={iconsize} />} to='/tours' label='Tours' />
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/gallery' label='Gallery' />
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/admin' label='Admin' />
               <NavItem icons={<AiFillPicture size={iconsize} />} to='/aboutkibera' label='About Kibera'/>
-              <NavItem icons={<AiFillPicture size={iconsize} />} to='/organizations' label='/Organizations'/>
-
-
-
+              <NavItem icons={<AiFillPicture size={iconsize} />} to='/organizations' label='Organizations'/>
             </ul>
           
         </div>
 
-        <div className='flex items-center'>
-          <ul className='w-30 bg-[#027884]  border-none rounded-md py-0 px-7 mt-4 cursor-pointer m-4' >
-          {shouldShowLoginLink && <NavItem  to='/login' label='Log In' />}
+        <div className='flex '>
+            
+          <ul className='w-30 bg-[#027884]   border-none rounded-md py-2 px-4 mt-4 cursor-pointer m-4' >
+          {shouldShowLoginLink && <NavItem  to='/login' label='LogIn' />}
 
             </ul>
         </div>
@@ -80,7 +78,7 @@ function NavItem({ icon, to, label }) {
     <li className="nav-item ">
       <div className="flex items-center hover:bg-slate-200 ">
         {icon}
-        <a href={to} className="nav-link">
+        <a href={to} className="nav-link flex">
           {label}
         </a>
       </div>

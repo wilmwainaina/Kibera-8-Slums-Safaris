@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import YouTubeVideos from "./YouTubeVideos";
 import PhotoGalleryAK from "./Gallery";
 import HeaderAK from "./HeaderAK";
+import Footer from "./Footer";
 
 function GalleryPart() {
   const containerVariants = {
@@ -27,7 +28,9 @@ function GalleryPart() {
         animate="visible"
       >
         <YouTubeVideos />
+        
       </motion.div>
+      
     </div>
   );
 }

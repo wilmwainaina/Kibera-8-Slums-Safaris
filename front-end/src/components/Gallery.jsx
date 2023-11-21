@@ -1,4 +1,3 @@
-  
 import React from "react";
 import Footer from "./Footer";
 
@@ -92,8 +91,9 @@ function PhotoGalleryAK() {
         </div>
         <div className="mt-24">
         {/* <Footer/> */}
-
+       
         </div>
+         <Footer />
         </div>
       );}  
 export default PhotoGalleryAK;

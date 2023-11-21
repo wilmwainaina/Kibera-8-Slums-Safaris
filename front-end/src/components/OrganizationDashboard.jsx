@@ -8,8 +8,10 @@ const OrganizationDashboard = () => {
   return (
     <div>
       <Header />
-      <OrgSidebar />
       <Home />
+      <OrgSidebar />
+      
+      
       
     </div>
   );
