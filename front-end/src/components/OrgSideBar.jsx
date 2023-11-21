@@ -65,11 +65,6 @@ const OrgSidebar = ({ openSidebarToggle }) => {
         </li>
         <li style={listItemStyle} className="sidebar-list-item">
           <a href="" style={listItemStyle}>
-            <BsListCheck /> Funds Tracker
-          </a>
-        </li>
-        <li style={listItemStyle} className="sidebar-list-item">
-          <a href="" style={listItemStyle}>
             <FaSignOutAlt size={32} color="black" /> Sign Out
           </a>
         </li>

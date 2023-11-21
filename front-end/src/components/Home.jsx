@@ -78,13 +78,7 @@ function Home() {
                 </div>
                 <h1>3300</h1>
             </div>
-            <div className='card'>
-                <div className='card-inner'>
-                    <h3>REQUESTS</h3>
-                    <BsFillBellFill className='card_icon'/>
-                </div>
-                <h1>37</h1>
-            </div>
+            
         </div>
 
         <div className='charts'>
